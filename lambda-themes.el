@@ -170,7 +170,7 @@ It should stick out from any other faces currently displayed."
         (lambda-bg          (cond ((eq variant 'dark)  "#24283b") ((eq variant 'dark-faded) "#282b35") ((eq variant 'light) "#FFFEFD") ((eq variant 'light-faded) "#fcfaf6")))
         ;; highlighting
         (lambda-ultralight  (cond ((eq variant 'dark)  "#cdffff") ((eq variant 'dark-faded) "#525868") ((eq variant 'light) "#EBE9E7") ((eq variant 'light-faded) "#cfd6e2")))
-        (lambda-highlight   (cond ((eq variant 'dark)  "#b4f9f8") ((eq variant 'dark-faded) "#444B5c") ((eq variant 'light) "#F5F2F0") ((eq variant 'light-faded) "#dbe1eb")))
+        (lambda-highlight   (cond ((eq variant 'dark)  "#a9b1d6") ((eq variant 'dark-faded) "#444B5c") ((eq variant 'light) "#F5F2F0") ((eq variant 'light-faded) "#dbe1eb")))
         (lambda-lowlight    (cond ((eq variant 'dark)  "#7dcfff") ((eq variant 'dark-faded) "#3c4353") ((eq variant 'light) "#F8F6F4") ((eq variant 'light-faded) "#e3e7ef")))
         ;; attention
         (lambda-urgent      (cond ((eq variant 'dark)  "#f7768e") ((eq variant 'dark-faded) "#f46715") ((eq variant 'light) "#B30000") ((eq variant 'light-faded) "#f53137")))
@@ -182,8 +182,8 @@ It should stick out from any other faces currently displayed."
         (lambda-mild        (cond ((eq variant 'dark)  "#71799d") ((eq variant 'dark-faded) "#8791A7") ((eq variant 'light) "#C1C1C1") ((eq variant 'light-faded) "#C8CDD8")))
         (lambda-faint       (cond ((eq variant 'dark)  "#51587a") ((eq variant 'dark-faded) "#333a47") ((eq variant 'light) "#E3E1E0") ((eq variant 'light-faded) "#eceff1")))
         ;; accent
-        (lambda-black       (cond ((eq variant 'dark)  "#414868") ((eq variant 'dark-faded) "#000000") ((eq variant 'light) "#000000") ((eq variant 'light-faded) "#000000")))
-        (lambda-white       (cond ((eq variant 'dark)  "#c0caf5") ((eq variant 'dark-faded) "#FFFFFF") ((eq variant 'light) "#FFFFFF") ((eq variant 'light-faded) "#FFFFFF")))
+        (lambda-black       (cond ((eq variant 'dark)  "#24283b") ((eq variant 'dark-faded) "#000000") ((eq variant 'light) "#000000") ((eq variant 'light-faded) "#000000")))
+        (lambda-white       (cond ((eq variant 'dark)  "#24283b") ((eq variant 'dark-faded) "#FFFFFF") ((eq variant 'light) "#FFFFFF") ((eq variant 'light-faded) "#FFFFFF")))
         (lambda-red         (cond ((eq variant 'dark)  "#f7768e") ((eq variant 'dark-faded) "#bf616a") ((eq variant 'light) "#EC6A5E") ((eq variant 'light-faded) "#960d36")))
         (lambda-green       (cond ((eq variant 'dark)  "#73daca") ((eq variant 'dark-faded) "#8eb89d") ((eq variant 'light) "#005A02") ((eq variant 'light-faded) "#00796b")))
         (lambda-blue        (cond ((eq variant 'dark)  "#7aa2f7") ((eq variant 'dark-faded) "#81a1c1") ((eq variant 'light) "#4C4CFF") ((eq variant 'light-faded) "#30608c")))
